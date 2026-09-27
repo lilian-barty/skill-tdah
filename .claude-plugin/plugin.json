@@ -1,0 +1,14 @@
+{
+  "name": "tdah",
+  "displayName": "Skill TDAH",
+  "version": "1.0.0",
+  "description": "Mode travail TDAH pour Claude : une tâche à la fois, brain dump, découpage des tâches, déblocage, timeboxing et mode turbo pour les bons jours. Construit par un freelance TDAH.",
+  "author": {
+    "name": "Lilian Barty-Christophe",
+    "url": "https://www.lilian-barty.fr/tdah/"
+  },
+  "homepage": "https://www.lilian-barty.fr/tdah/",
+  "repository": "https://github.com/lilian-barty/skill-tdah",
+  "license": "MIT",
+  "keywords": ["tdah", "adhd", "productivite", "focus", "freelance", "claude-code", "skill"]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "lilian-barty",
+  "owner": {
+    "name": "Lilian Barty-Christophe",
+    "url": "https://www.lilian-barty.fr/"
+  },
+  "description": "Les skills Claude de Lilian Barty-Christophe.",
+  "plugins": [
+    {
+      "name": "tdah",
+      "displayName": "Skill TDAH",
+      "source": "./",
+      "description": "Mode travail TDAH pour Claude : une tâche à la fois, brain dump, découpage des tâches, déblocage, timeboxing et mode turbo pour les bons jours. Construit par un freelance TDAH.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Lilian Barty-Christophe",
+        "url": "https://www.lilian-barty.fr/tdah/"
+      },
+      "homepage": "https://www.lilian-barty.fr/tdah/",
+      "repository": "https://github.com/lilian-barty/skill-tdah",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": ["tdah", "adhd", "productivite", "focus", "freelance"]
+    }
+  ]
+}
