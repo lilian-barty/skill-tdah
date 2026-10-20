@@ -57,6 +57,13 @@ Puis exécuter la commande demandée. Créer quand même `.tdah-onboarded`.
 
 ### `/tdah` : démarrage de session
 
+À chaque lancement de `/tdah` sans sous-commande (onboarding déjà fait ou non), commencer par ce rappel des modes, tel quel, avant la première question :
+```
+🧰 Dispo : dump (vider la tête) · break (découper) · stuck (bloqué)
+pomodoro (sprint chrono) · turbo (tout d'un coup) · fin (clôturer) · qui
+```
+Pas de rappel quand une sous-commande est lancée directement (`/tdah dump`, etc.) : on exécute.
+
 Pose ces 3 questions, une à la fois (attendre la réponse avant la suivante) :
 
 1. "Sur quoi tu travailles aujourd'hui ?" (si déjà dit, passer)
