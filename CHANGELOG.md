@@ -14,6 +14,7 @@ Révision complète après une critique du skill au regard de ce qu'on sait du T
 - Nouveau mode `stop` pour décrocher d'un hyperfocus ou changer de tâche sans perdre le fil.
 - `fin` liste d'abord ce que Claude a vu passer et propose de rayer ce qui traîne depuis plus de 2 semaines.
 - Le fichier de première utilisation va dans `~/.claude/` au lieu de la racine de chaque projet.
+- Le README cite la source de chaque règle avec son niveau de preuve, et liste les règles qui n'en ont pas.
 
 ## 1.2.0, le 28 octobre 2026
 
