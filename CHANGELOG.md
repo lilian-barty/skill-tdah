@@ -1,5 +1,20 @@
 # Versions
 
+## 1.3.0, le 10 novembre 2026
+
+Révision complète après une critique du skill au regard de ce qu'on sait du TDAH.
+
+- Vouvoiement partout, avec des formulations neutres en genre. Le tutoiement reste possible si vous le demandez.
+- Chaque sprint commence par un minuteur que vous lancez sur votre téléphone : Claude ne voit pas le temps passer, et un cerveau TDAH non plus.
+- Le skill compare le temps prévu au temps réel et garde votre ratio dans `SESSION.md` pour ajuster les estimations suivantes.
+- Le démarrage tient en une question. S'il trouve un `SESSION.md`, il propose de reprendre là où vous vous étiez arrêté.
+- `stuck` distingue 4 causes : ne pas savoir par où commencer, ne pas réussir à démarrer, la tête qui tourne, le manque d'énergie.
+- Après 3 blocages, il fait repartir sur la tâche la plus facile.
+- `honte` reconnaît le jugement en une phrase avant de revenir à l'action, et ne se déclenche plus sur un simple constat.
+- Nouveau mode `stop` pour décrocher d'un hyperfocus ou changer de tâche sans perdre le fil.
+- `fin` liste d'abord ce que Claude a vu passer et propose de rayer ce qui traîne depuis plus de 2 semaines.
+- Le fichier de première utilisation va dans `~/.claude/` au lieu de la racine de chaque projet.
+
 ## 1.2.0, le 28 octobre 2026
 
 - Marche aussi sans accès aux fichiers (app Claude, téléphone) : la grande intro ne revient pas à chaque conversation, les "plus tard" restent dans la conversation et le bilan de `fin` sort dans un encadré à copier.
