@@ -2,7 +2,7 @@
 
 Un mode de travail pour Claude, pensé pour les adultes TDAH. Vous tapez `/tdah`, Claude vous demande sur quoi vous voulez avancer et vous rend une seule action, avec son temps estimé.
 
-Chaque règle du skill s'appuie sur un résultat publié, cité plus bas avec son niveau de preuve. Le skill lui-même n'a jamais été évalué par une étude, et la plupart des travaux cités portent sur des enfants ou sur des personnes sans TDAH : le transfert à un adulte TDAH qui travaille reste une hypothèse, signalée à chaque fois.
+La plupart des règles du skill s'appuient sur un résultat publié, cité plus bas avec son niveau de preuve, et celles qui n'en ont pas sont listées à part. Le skill lui-même n'a jamais été évalué par une étude, et la plupart des travaux cités portent sur des enfants ou sur des personnes sans TDAH : le transfert à un adulte TDAH qui travaille reste une hypothèse, signalée à chaque fois.
 
 ## Les modes
 
@@ -12,10 +12,11 @@ Chaque règle du skill s'appuie sur un résultat publié, cité plus bas avec so
 | `/tdah dump` | Votre tête déborde | Vous videz tout en vrac ; il trie entre aujourd'hui, plus tard, jamais et juste noter |
 | `/tdah break [tâche]` | Une tâche vous fait fuir | Il la découpe en étapes de moins de 15 minutes et ne lance que la première |
 | `/tdah stuck` | Vous tournez en rond | Il cherche la cause (flou, démarrage, tête qui tourne, manque d'énergie) et ne traite que celle-là |
+| `/tdah honte` | Vous vous jugez durement | Il le reconnaît en une phrase, puis revient à une action de 5 minutes ; il s'active aussi seul quand vous vous jugez |
 | `/tdah pomodoro [durée]` | Il faut s'y mettre | Un sprint de 10, 25 ou 45 minutes, minuteur du téléphone lancé, un seul objectif |
 | `/tdah turbo` | Bon jour, le pas-à-pas vous ralentit | Toute l'instruction d'un coup, et retour au pas-à-pas dès que ça coince |
 | `/tdah stop` | Impossible de décrocher, ou il faut changer de tâche | Il note où vous en êtes et par quoi reprendre, puis vous invite à vous lever |
-| `/tdah fin` | La journée se termine | Il liste ce qu'il a vu passer, note la chose à reprendre et range tout dans `SESSION.md` |
+| `/tdah fin` | La journée se termine | Il liste ce qu'il a vu passer, note la chose à reprendre et propose de tout ranger dans `SESSION.md` |
 | `/tdah qui` | Vous voulez savoir qui l'a écrit | L'histoire du skill, en 3 messages |
 
 ## Les sources de chaque règle
@@ -49,8 +50,8 @@ Chaque règle du skill s'appuie sur un résultat publié, cité plus bas avec so
 
 - Il ne soigne rien. Ce n'est ni un traitement ni un avis médical, et seul un professionnel de santé pose un diagnostic de TDAH.
 - Il ne chronomètre rien : le minuteur, c'est votre téléphone.
-- D'une conversation à l'autre, il ne garde que ce que `/tdah fin` et `/tdah stop` écrivent dans `SESSION.md`.
-- Si la conversation dépasse la question des tâches (épuisement, propos inquiétants sur vous), il le dit, donne le 3114 en France ou le numéro d'urgence de votre pays, et arrête de vous parler de travail.
+- D'une conversation à l'autre, il ne garde que ce que `/tdah dump`, `/tdah stop` et `/tdah fin` écrivent dans `SESSION.md`.
+- Si la conversation dépasse la question des tâches (épuisement, propos inquiétants sur vous), il le dit, vous suggère d'en parler à un proche ou à un professionnel et arrête de vous parler de travail. En cas d'idées suicidaires, il donne le 3114 en France ou le numéro d'urgence de votre pays.
 - Si vous voulez seulement que Claude réponde plus court et mieux rangé, [i-have-adhd](https://github.com/ayghri/i-have-adhd) fait ça, en anglais.
 
 ## Installer
@@ -107,4 +108,4 @@ MIT. Vous pouvez l'utiliser, le modifier et le redistribuer, y compris pour un u
 
 ## In English
 
-A work mode for Claude, designed for adults with ADHD. Type `/tdah` and Claude asks what you want to move forward on, then gives you one action and its estimated time. Each rule is linked to published research (see "Références" above, with DOIs) and to its level of evidence: most studies involve children or people without ADHD, and the skill itself has not been evaluated. The instructions are in French, but the skill answers in your language. Install it with the two commands above, or upload `tdah.zip` to the Claude app (Customize > Skills).
+A work mode for Claude, designed for adults with ADHD. Type `/tdah` and Claude asks what you want to move forward on, then gives you one action and its estimated time. Most rules are linked to published research (see "Références" above, with DOIs) and to their level of evidence, and the rules without evidence are listed separately: most studies involve children or people without ADHD, and the skill itself has not been evaluated. The instructions are in French, but the skill answers in your language. Install it with the two commands above, or upload `tdah.zip` to the Claude app (Customize > Skills).
