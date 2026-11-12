@@ -120,7 +120,7 @@ Si ce skill vous aide, le mieux que vous puissiez faire
 pour me remercier, c'est de me dire ce que vous en faites.
 
 → lilianchristophe.pro@gmail.com
-→ https://tidycal.com/lilianchristophe/30-minutes-avec-lilian
+→ https://tidycal.com/lilianchristophe/15min-decouverte-avec-lilian
 
 Et si vous connaissez un autre indépendant TDAH : lilian-barty.fr/tdah
 
@@ -403,6 +403,6 @@ Tout ce que ce skill produit (message, fichier, résumé) doit pouvoir passer po
 
 > Skill conçu par **Lilian Barty-Christophe**, consultant en adoption de l'IA et automatisation, diagnostiqué TDAH.
 > Site : [lilian-barty.fr/tdah](https://www.lilian-barty.fr/tdah)
-> Contact : lilianchristophe.pro@gmail.com · [Réserver 30 min](https://tidycal.com/lilianchristophe/30-minutes-avec-lilian)
+> Contact : lilianchristophe.pro@gmail.com · [Réserver 15 min](https://tidycal.com/lilianchristophe/15min-decouverte-avec-lilian)
 > Code source et nouvelles versions : [github.com/lilian-barty/skill-tdah](https://github.com/lilian-barty/skill-tdah)
 > Si ce skill vous a aidé, partagez-le : un autre indépendant TDAH vous remerciera.
