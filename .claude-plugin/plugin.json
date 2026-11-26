@@ -1,7 +1,7 @@
 {
   "name": "tdah",
   "displayName": "Skill TDAH",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Mode travail TDAH pour Claude : une tâche à la fois, brain dump, découpage des tâches, déblocage, sprints au minuteur, mode turbo pour les bons jours et atterrissage après l'hyperfocus. Construit par un freelance TDAH.",
   "author": {
     "name": "Lilian Barty-Christophe",

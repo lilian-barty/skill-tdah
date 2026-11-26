@@ -1,5 +1,9 @@
 # Versions
 
+## 1.4.1, le 26 novembre 2026
+
+- Deux messages reformulés : "Revenez me dire quand c'est fait (ou si quelque chose bloque)" et, après un sprint inachevé, "Qu'est-ce qui vous a arrêté ?".
+
 ## 1.4.0, le 26 novembre 2026
 
 - Lien avec le skill `/orga` : `/tdah` propose le bloc du jour lu dans `SEMAINE.md` et coche les blocs faits au `fin`.

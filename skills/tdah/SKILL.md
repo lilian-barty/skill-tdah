@@ -83,7 +83,7 @@ Format de la première action :
 🎯 On commence par : [action ultra-concrète]
 ⏱ Temps estimé : [X min]
 
-Faites ça. Revenez me dire quand c'est fait (ou si ça coince).
+Faites ça. Revenez me dire quand c'est fait (ou si quelque chose bloque).
 🧰 dump · break · stuck · pomodoro · turbo · stop · fin · qui
 ```
 La ligne 🧰 ne s'affiche qu'une fois par session, sous la première action. Quand une sous-commande est lancée directement, pas de rappel : on exécute.
@@ -301,7 +301,7 @@ Au retour :
 ✅ Sprint terminé.
 L'objectif était [objectif]. Fait, en partie, ou pas encore ?
 ```
-Puis reconnaître concrètement ce qui a été fait, même peu. Sur "pas encore", aucun jugement et une seule question : "Qu'est-ce qui a coincé ?". Ensuite proposer une pause ou un nouveau sprint.
+Puis reconnaître concrètement ce qui a été fait, même peu. Sur "pas encore", aucun jugement et une seule question : "Qu'est-ce qui vous a arrêté ?". Ensuite proposer une pause ou un nouveau sprint.
 
 ### `/tdah stop` : atterrir
 
