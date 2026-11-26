@@ -1,5 +1,17 @@
 # Versions
 
+## 1.4.0, le 26 novembre 2026
+
+- Lien avec le skill `/orga` : `/tdah` propose le bloc du jour lu dans `SEMAINE.md` et coche les blocs faits au `fin`.
+- Plusieurs tâches citées : l'ordre de choix passe par ce qui bloque le reste (accès, outil en panne), puis l'argent à faire rentrer, puis la préparation d'un rendez-vous proche, avant l'échéance la plus proche.
+- `fin` raye d'une semaine planifiée les réponses attendues qui sont arrivées.
+- La reprise notée par `stop` et `fin` s'écrit "quand [moment], alors [geste]". L'effet de ce format sur le passage à l'acte est petit (d = 0,27), le skill ne promet pas de déclic.
+- `pomodoro` fait préparer la place avant de lancer le minuteur : fichier ouvert, notifications coupées.
+- Une tâche d'apprentissage découpée par `break` finit par 3 questions sans les notes, jamais par une relecture.
+- Pour s'engager devant quelqu'un, le skill propose d'annoncer un geste daté à une personne dont vous respectez le jugement, plutôt qu'une ambition.
+- Retiré : le "réservoir vide" après 3 blocages. L'idée d'une volonté qui s'épuise comme un muscle ne se réplique pas.
+- Nouveau fichier `references/engagement-apports-2026-11.md` : les études derrière ces règles, leurs limites, et les résultats rétractés à ne pas citer comme preuve.
+
 ## 1.3.0, le 10 novembre 2026
 
 Révision complète après une critique du skill au regard de ce qu'on sait du TDAH.

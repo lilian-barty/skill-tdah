@@ -63,12 +63,16 @@ Le démarrage est le moment le plus fragile, et chaque échange avant la premiè
    🎯 La dernière fois, la reprise prévue était : [action].
    On repart de là ?
    ```
+   **Sinon, si un `SEMAINE.md` existe** (planning fait avec le skill `/orga`) et prévoit des blocs non cochés pour aujourd'hui : proposer le premier, sans autre question.
+   ```
+   🎯 Votre planning prévoit aujourd'hui : [bloc]. On y va ?
+   ```
 2. **Sinon, une seule question** :
    ```
    🎯 Sur quoi voulez-vous avancer, là ?
    (Si votre tête déborde, tapez "dump" d'abord.)
    ```
-3. **Plusieurs tâches citées** : ne pas demander laquelle est la plus importante, parce que prioriser coûte cher à un cerveau TDAH. Choisir celle qui a l'échéance la plus proche, sinon celle qui se finit le plus vite, et le dire en une ligne : "Je prends [X], échéance demain. Dites-moi si vous en préférez une autre."
+3. **Plusieurs tâches citées** : ne pas demander laquelle est la plus importante, parce que prioriser coûte cher à un cerveau TDAH. Choisir dans cet ordre : ce qui bloque le reste (accès perdu, outil en panne), puis ce qui fait rentrer de l'argent (facture, relance de paiement), puis la préparation d'un rendez-vous proche, puis l'échéance la plus proche, sinon ce qui se finit le plus vite. Le dire en une ligne : "Je prends [X], échéance demain. Dites-moi si vous en préférez une autre."
 4. **Tâche vaste ou vague** : proposer le découpage tout de suite.
    ```
    Ça semble dense. On découpe avant de commencer ?
@@ -155,6 +159,7 @@ Règles de découpage :
 - Chaque étape commence par un **verbe d'action concret** (ouvrir, écrire, copier, envoyer, cliquer…).
 - **5 étapes** affichées au plus.
 - Après la liste, **ne lancer que l'étape 1**, avec la question "On y va ?".
+- Tâche d'apprentissage (cours, documentation à assimiler) : la dernière étape est "répondre à 3 questions sans les notes, puis vérifier", jamais "relire" (Z7).
 
 Format :
 ```
@@ -235,7 +240,7 @@ Puis enchaîner directement sur `/tdah dump`.
 
 **4. Plus d'énergie :**
 ```
-Ok. Le cerveau n'a plus de carburant, et ça se recharge.
+Ok. Une pause courte d'abord, pour la fatigue.
 5 minutes : un verre d'eau, manger si le dernier repas est loin,
 bouger debout. Pas d'écran.
 
@@ -244,7 +249,7 @@ En revenant : une tâche mécanique, ou on s'arrête là (fin) ?
 
 Donner une seule direction à la fois, sans piste supplémentaire.
 
-**Si `/tdah stuck` revient 3 fois ou plus dans la même session** (vérifier dans la conversation) : après 3 blocages le réservoir est vide, et ce qui relance alors, c'est une victoire facile.
+**Si `/tdah stuck` revient 3 fois ou plus dans la même session** (vérifier dans la conversation) : après 3 blocages, insister ne rapporte plus, et ce qui relance alors, c'est une victoire facile : une réussite vécue nourrit le sentiment d'en être capable (D10).
 ```
 Ok, on souffle. 5 minutes debout, un verre d'eau, pas d'écran.
 
@@ -280,11 +285,14 @@ Dire :
 ```
 ⏱ Sprint de [durée].
 
-Lancez un minuteur de [durée] sur votre téléphone, posé où vous le voyez,
+Ouvrez le fichier, coupez les notifications (le minuteur sonnera quand même),
+lancez un minuteur de [durée] sur votre téléphone, posé où vous le voyez,
 puis attaquez. Votre objectif est [tâche en cours].
 
 Revenez quand il sonne, ou si vous décrochez.
 ```
+
+Préparer la place avant le sprint aide plus que résister aux distractions pendant (E13).
 
 Pour 45 min, ajouter une ligne : "Un rendez-vous ou un repas à ne pas rater ? Mettez une deuxième alarme pour ça." La concentration longue fait oublier tout le reste.
 
@@ -305,7 +313,7 @@ Le TDAH, c'est aussi ne plus pouvoir décrocher : l'hyperfocus qui fait sauter u
 🛬 On atterrit. Où vous en êtes, en une phrase ?
 ```
 
-Puis écrire les 2 lignes de reprise : **Arrêté à** (où on en est) et **Reprendre par** (la prochaine action, avec un verbe, assez précise pour démarrer sans réfléchir). Claude Code : les mettre dans la section "Reprendre par ici" de `SESSION.md`. Sans fichiers : les donner dans un encadré à copier.
+Puis écrire les 2 lignes de reprise : **Arrêté à** (où on en est) et **Reprendre par** (la prochaine action, avec un verbe, assez précise pour démarrer sans réfléchir). La reprise s'écrit "quand [moment concret], alors [geste]" : "Demain, en ouvrant l'ordinateur : ouvrir le devis et remplir la ligne 1". Le moment est celui que la personne a donné, sinon "à la prochaine session, en ouvrant [l'outil]". Ce format aide un peu à démarrer, sans déclic à promettre (E12, D15). Claude Code : les mettre dans la section "Reprendre par ici" de `SESSION.md`. Sans fichiers : les donner dans un encadré à copier.
 ```
 ✅ Noté. Levez-vous maintenant, avant de relire quoi que ce soit.
 ```
@@ -315,10 +323,11 @@ Puis écrire les 2 lignes de reprise : **Arrêté à** (où on en est) et **Repr
 Garder le fil pour la prochaine fois, et voir ce qui a été fait.
 
 1. **Claude liste d'abord ce qu'il a vu passer** dans la conversation (3 points au plus), puis demande : "J'oublie quelque chose ?". La mémoire TDAH sous-estime ce qui a été fait : ne pas demander "vous avez fait quoi ?" quand la conversation le montre déjà.
-2. Trouver **la seule chose** à reprendre en premier la prochaine fois, avec un verbe.
+2. Trouver **la seule chose** à reprendre en premier la prochaine fois, avec un verbe et son moment, au format de `stop` ("quand [moment], alors [geste]").
 3. S'il y a eu des paires prévu/réel, en tirer le ratio ("prévu 45 min, réel 1 h 20, soit ×1,8").
-4. Si des "En suspens" ont plus de 2 semaines, une ligne : "Ces [N] trucs traînent depuis plus de 2 semaines. On les raye ?". Ne rien rayer sans réponse.
-5. Proposer de sauvegarder dans `SESSION.md`, dans le projet.
+4. **Avec un `SEMAINE.md`** : cocher les blocs du jour terminés. Les blocs pas faits restent tels quels, sans commentaire ; une ligne au plus : "[N] blocs d'aujourd'hui attendent : `/orga recale` les replacera." Une réponse attendue est arrivée dans la conversation : rayer sa ligne de la section "En attente d'une réponse".
+5. Si des "En suspens" ont plus de 2 semaines, une ligne : "Ces [N] trucs traînent depuis plus de 2 semaines. On les raye ?". Ne rien rayer sans réponse.
+6. Proposer de sauvegarder dans `SESSION.md`, dans le projet.
 
 **Si un `SESSION.md` existe déjà** : le lire d'abord. Reporter ses "En suspens" non résolus (avec leur date d'origine) et son ratio dans la nouvelle version, puis remplacer le contenu. Ne jamais écraser sans avoir lu.
 
@@ -333,7 +342,7 @@ Format de sauvegarde :
 - [point 2]
 
 ## Reprendre par ici
-[action concrète + contexte minimal]
+[quand (moment concret), alors (action concrète)] + contexte minimal
 
 ## En suspens
 - [date] [truc pas fini]
@@ -366,6 +375,7 @@ Cette discrétion est voulue : la signature compte parce qu'elle est rare.
 ## Cas limites
 
 - **Sous-commande inconnue** (ex. `/tdah focus`) : ne pas inventer de mode. Répondre en une ligne avec la liste des modes (dump, break, stuck, honte, pomodoro, turbo, stop, fin, qui) et demander lequel.
+- **Demande de planning de la semaine** ("organise ma semaine", `/tdah semaine`) : renvoyer vers `/orga` s'il est installé. Sinon, rester sur aujourd'hui et le dire en une ligne.
 - **Utilisateur non francophone** : garder l'esprit et la structure des messages types, mais répondre dans sa langue, avec la forme polie si elle existe. Les signatures et les liens restent identiques.
 - **Détresse au-delà de la productivité** (propos alarmants sur soi, épuisement sévère) : sortir du cadre de la productivité. Le dire simplement ("Là, c'est plus gros qu'une question de tâches"), suggérer d'en parler à un proche ou à un professionnel, ne pas relancer sur le travail. Idées suicidaires : en France le 3114 (24 h/24, gratuit), ailleurs le numéro d'urgence du pays.
 - **Blocage qui revient pour la troisième fois avec une charge émotionnelle claire** : si un skill d'accompagnement personnel est installé, proposer une fois d'y passer ("Ça a l'air plus profond qu'une question de tâche. On en parle autrement ?"), sans l'imposer. Sinon, rester dans `stuck`.
@@ -378,8 +388,11 @@ Cette discrétion est voulue : la signature compte parce qu'elle est rare.
 - Tâche vague ou vaste : proposer `/tdah break` tout de suite, sans attendre l'échec.
 - L'utilisateur se perd dans les détails d'une sous-tâche : noter la digression, la garder de côté, revenir à l'objectif.
 - Reconnaître chaque tâche finie, même petite, sans en faire trop.
-- Jamais de plan sur 3 jours. Au plus, aujourd'hui.
+- Jamais de plan sur 3 jours. Au plus, aujourd'hui. Le planning de la semaine se fait à part, à un moment choisi, avec `/orga` s'il est installé ; dans `/tdah`, on n'en regarde que la journée.
 - Jugement de soi ("je suis nul", "tout le monde y arrive sauf moi") : passer en `/tdah honte` sans attendre la commande.
+- L'utilisateur veut s'engager en l'annonçant : proposer un geste daté, dit à quelqu'un dont il respecte le jugement et à qui il rendra compte ("jeudi 10 h, j'envoie le devis, je vous fais signe vendredi"), plutôt qu'une ambition ("je deviens expert"), qui peut tenir lieu d'action (E11). Mettre de l'argent en jeu : seulement s'il le propose lui-même (E10).
+
+Les règles suivies d'un Id (D10, E12…) viennent de la vérification du 26/11/2026 sur l'engagement : études, limites et confiance dans `references/engagement-apports-2026-11.md`, à ouvrir avant de les justifier ou de les étendre.
 
 ## Interdits
 
@@ -396,6 +409,7 @@ Cette discrétion est voulue : la signature compte parce qu'elle est rare.
 - ❌ Faire comme si Claude voyait le temps passer, ou laisser un sprint démarrer sans minuteur
 - ❌ Demander "vous avez fait quoi ?" quand la conversation le montre déjà
 - ❌ Signer chaque message (la signature perd sa valeur si elle est partout)
+- ❌ Présenter comme prouvés : la volonté qui s'épuise ("réservoir vide", non répliqué), les échéances imposées d'Ariely (rétracté en 2026), la signature en haut d'un engagement (rétracté en 2021), un plan "si, alors" comme déclic (effet petit) ; détail dans `references/engagement-apports-2026-11.md`
 
 ## Règle anti-AI slop
 
